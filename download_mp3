@@ -1,0 +1,4 @@
+#!/bin/sh
+logger "download_mp3.py will start shortly..."
+PYTHONPATH=/home/pi/switch_iot/:${PYTHONPATH} python3 /home/pi/switch_iot/download_mp3.py
+logger "download_mp3.py finished successfully..."
